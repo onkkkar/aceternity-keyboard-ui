@@ -1,10 +1,10 @@
 const Keyboard = () => {
   return (
     <div className="content-holder mx-auto flex w-full max-w-[88rem] items-center justify-center text-white">
-      <div className="keyboard-holder p- mx-auto h-fit w-fit bg-zinc-800">
+      <div className="keyboard-holder mx-auto h-fit w-fit rounded-sm bg-zinc-800 p-2">
         <div className="row-1 mb-[2px] flex gap-[1.5px]">
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-10 items-end justify-start rounded-[3.5px] bg-[#0A090D] pb-[2px] pl-[4px]">
+            <div className="flex h-6 w-10 items-end justify-start rounded-[3.5px] bg-[#0A090D] pb-[2px] pl-[4px] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col items-center justify-start text-[5px] text-white">
                 esc
               </div>
@@ -13,7 +13,7 @@ const Keyboard = () => {
 
           {/* F1 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Keyboard = () => {
 
           {/* F2 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ const Keyboard = () => {
 
           {/* F3 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const Keyboard = () => {
 
           {/* F4 */}
           <div className="p-[0.5px ] cursor-pointer rounded-[4px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ const Keyboard = () => {
 
           {/* F5 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ const Keyboard = () => {
 
           {/* F6 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +176,7 @@ const Keyboard = () => {
 
           {/* F7 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,7 @@ const Keyboard = () => {
 
           {/* F8 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -226,7 +226,7 @@ const Keyboard = () => {
 
           {/* F9 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@ const Keyboard = () => {
 
           {/* F10 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -277,7 +277,7 @@ const Keyboard = () => {
 
           {/* F11 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -303,7 +303,7 @@ const Keyboard = () => {
 
           {/* F12 */}
           <div className="cursor-pointer rounded-[4px] p-[0.5px]">
-            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D]">
+            <div className="flex h-6 w-6 items-center justify-center rounded-[3.5px] bg-[#0A090D] shadow-sm shadow-white/80 transition-transform duration-200 hover:scale-[0.95] hover:shadow-none">
               <div className="flex flex-col gap-[2px]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

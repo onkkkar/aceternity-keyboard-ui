@@ -2,4 +2,5 @@
 
 @theme {
   --color-background: oklch(21% 0.034 264.665);
+  --color-white: #fff;
 }
