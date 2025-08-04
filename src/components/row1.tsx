@@ -187,8 +187,8 @@ const Row1 = () => {
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <path d="M17.971 4.285A2 2 0 0 1 21 6v12a2 2 0 0 1-3.029 1.715l-9.997-5.998a2 2 0 0 1-.003-3.432z" />
-              <path d="M3 20V4" />
+              <path d="M12 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 12 18z" />
+              <path d="M22 6a2 2 0 0 0-3.414-1.414l-6 6a2 2 0 0 0 0 2.828l6 6A2 2 0 0 0 22 18z" />
             </svg>
             <div className="flex flex-col items-center justify-start text-[5px] text-white">
               F7
@@ -237,9 +237,8 @@ const Row1 = () => {
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
-              <line x1="22" x2="16" y1="9" y2="15" />
-              <line x1="16" x2="22" y1="9" y2="15" />
+              <path d="M12 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 12 18z" />
+              <path d="M2 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 2 18z" />
             </svg>
             <div className="flex flex-col items-center justify-start text-[5px] text-white">
               F9
@@ -264,7 +263,8 @@ const Row1 = () => {
               stroke-linejoin="round"
             >
               <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
-              <path d="M16 9a5 5 0 0 1 0 6" />
+              <line x1="22" x2="16" y1="9" y2="15" />
+              <line x1="16" x2="22" y1="9" y2="15" />
             </svg>
             <div className="flex flex-col items-center justify-start text-[5px] text-white">
               F10
@@ -290,7 +290,6 @@ const Row1 = () => {
             >
               <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
               <path d="M16 9a5 5 0 0 1 0 6" />
-              <path d="M19.364 18.364a9 9 0 0 0 0-12.728" />
             </svg>
             <div className="flex flex-col items-center justify-start text-[5px] text-white">
               F11
@@ -314,8 +313,9 @@ const Row1 = () => {
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <polygon points="11 5,6 9,2 9,2 15,6 15,11 19,11 5" />
-              <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+              <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
+              <path d="M16 9a5 5 0 0 1 0 6" />
+              <path d="M19.364 18.364a9 9 0 0 0 0-12.728" />
             </svg>
             <div className="flex flex-col items-center justify-start text-[5px] text-white">
               F12
